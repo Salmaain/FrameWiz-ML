@@ -4,6 +4,16 @@ This project aims to classify glasses frame images based on face shape using a C
 ## Dataset
 The dataset used in this project consists of face images categorized by face shape. It is assumed that the dataset is structured in separate directories for each class (face shape) within the train and test directories. link to the dataset: https://www.kaggle.com/datasets/zeyadkhalid/faceshape-processed
 
+There are five classes :
+1. Heart
+2. Oblong
+3. Round
+4. Square
+5. Oval
+
+## Model Architecture
+Faces are recognized, rotated and extracted from original images
+
 ## Model Architecture
 The CNN model architecture is defined as follows:
 
@@ -22,6 +32,7 @@ Loss function: Categorical cross-entropy.
 Optimizer: Adam optimizer.
 Metrics: Accuracy.
 The model is trained for 100 epochs with a batch size of 32. The training and testing sets are shuffled during training.
+
 Model used on app: https://drive.google.com/drive/u/2/folders/1tk_eG0Ce4R4fb4mWcFPqDMAVTS9IhVAR
 
 ## Results
